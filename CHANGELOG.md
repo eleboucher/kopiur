@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.7](https://github.com/home-operations/kopiur/compare/0.4.6...0.4.7) (2026-06-15)
+
+
+### Miscellaneous Chores
+
+* **krew:** kopiur 0.4.6 manifest ([66e03e5](https://github.com/home-operations/kopiur/commit/66e03e5149ff782da5e1fd10b86ce25f6716f6d7))
+
 ## [0.4.6](https://github.com/home-operations/kopiur/compare/0.4.5...0.4.6) (2026-06-15)
 
 

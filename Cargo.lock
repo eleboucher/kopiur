@@ -1390,6 +1390,18 @@ checksum = "51b326f5219dd55872a72c1b6ddd1b830b8334996c667449c29391d657d78d5e"
 dependencies = [
  "base64",
  "jiff",
+ "serde",
+ "serde_json",
+]
+
+[[package]]
+name = "k8s-openapi"
+version = "0.28.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d9c6922f6afe80418dd6019818af5d0d34584c371780ff09b9752370c25b4abb"
+dependencies = [
+ "base64",
+ "jiff",
  "schemars",
  "serde",
  "serde_json",
@@ -1403,7 +1415,7 @@ dependencies = [
  "cel",
  "chrono",
  "croner",
- "k8s-openapi",
+ "k8s-openapi 0.28.0",
  "kube",
  "schemars",
  "serde",
@@ -1419,7 +1431,7 @@ dependencies = [
  "chrono",
  "clap",
  "futures",
- "k8s-openapi",
+ "k8s-openapi 0.28.0",
  "kopiur-api",
  "kopiur-kopia",
  "kopiur-mover",
@@ -1444,7 +1456,7 @@ dependencies = [
  "croner",
  "futures",
  "http",
- "k8s-openapi",
+ "k8s-openapi 0.28.0",
  "kopiur-api",
  "kopiur-kopia",
  "kopiur-mover",
@@ -1477,7 +1489,7 @@ dependencies = [
  "anyhow",
  "chrono",
  "http",
- "k8s-openapi",
+ "k8s-openapi 0.28.0",
  "kopiur-api",
  "kube",
  "rustls",
@@ -1504,7 +1516,7 @@ name = "kopiur-mover"
 version = "0.1.0"
 dependencies = [
  "chrono",
- "k8s-openapi",
+ "k8s-openapi 0.28.0",
  "kopiur-api",
  "kopiur-kopia",
  "kopiur-telemetry",
@@ -1546,7 +1558,7 @@ dependencies = [
  "base64",
  "http-body-util",
  "json-patch",
- "k8s-openapi",
+ "k8s-openapi 0.28.0",
  "kopiur-api",
  "kopiur-telemetry",
  "kube",
@@ -1567,7 +1579,7 @@ version = "3.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "acc5a6a69da2975ed9925d56b5dcfc9cc739b66f37add06785b7c9f6d1e88741"
 dependencies = [
- "k8s-openapi",
+ "k8s-openapi 0.27.1",
  "kube-client",
  "kube-core",
  "kube-derive",
@@ -1593,7 +1605,7 @@ dependencies = [
  "hyper-util",
  "jiff",
  "jsonpath-rust",
- "k8s-openapi",
+ "k8s-openapi 0.27.1",
  "kube-core",
  "pem",
  "rustls",
@@ -1621,7 +1633,7 @@ dependencies = [
  "http",
  "jiff",
  "json-patch",
- "k8s-openapi",
+ "k8s-openapi 0.27.1",
  "schemars",
  "serde",
  "serde-value",
@@ -1658,7 +1670,7 @@ dependencies = [
  "hashbrown 0.16.1",
  "hostname",
  "json-patch",
- "k8s-openapi",
+ "k8s-openapi 0.27.1",
  "kube-client",
  "parking_lot",
  "pin-project",
@@ -3843,7 +3855,7 @@ version = "0.1.0"
 dependencies = [
  "anyhow",
  "insta",
- "k8s-openapi",
+ "k8s-openapi 0.28.0",
  "kopiur-api",
  "kube",
  "serde",
